@@ -83,7 +83,7 @@ if file:
 
         for doc in docs:
             source = doc.metadata['source']
-            page = str(doc.metadata['page'])
+            page = str(doc.metadata['page']+1)
             sources.add(source)
             pages.add(page)
 

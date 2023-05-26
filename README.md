@@ -18,3 +18,4 @@ To run, use `streamlit run Query.py`. A brower window should open with the app. 
 - uses in memory FAISS database as a vector store and only tested with a smaller PDFs (around 10MB) 
 - max upload size in 200MB
 - you can only query one PDF at a time in this version
+- because embeddings are not saved, when you restart the app or clear the Streamlit cache, they have to be recreated which means $ 😃

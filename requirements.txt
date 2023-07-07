@@ -1,5 +1,9 @@
 langchain==0.0.181
 streamlit==1.22.0
-streamlit-chat==0.0.2.2
+streamlit-chat==0.1.1
 openai==0.27.2
 faiss-cpu==1.7.4
+faiss-cpu==1.7.4
+PyPDF==3.12.0
+tiktoken==0.4.0
+python-dotenv=1.0.0
